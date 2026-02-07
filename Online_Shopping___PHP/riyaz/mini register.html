@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+<head>  
+	<title>   Register </title>  
+	<style>   
+	td.no{
+	text-align:center;}
+	td{    
+	margin: 10px;    
+	font-size: 20px;  
+		
+		text-align:right;
+	padding: 2px;   } 
+	
+	th{    
+	margin: 10px;    
+	font-size: 30px;    
+	padding: 2px;   }   
+	
+	input[type=text], input[type=number] ,input[type=email],input[type=date],input[type=password]{      
+	width: 100%;     
+	padding-top:5px;
+padding-bottom:5px;	} 
+	
+	input[type=submit]{
+    width: 75%;
+height:35px;
+font-size:20px;
+border-radius:10px;
+border:5px solid black;	}  
+	</style> 
+</head> 
+<body> 
+	<table align="center" >  
+	<form action="mini register.php" method="GET"> 
+		<tr>    
+			<th colspan="2" align="center"><u>Registration page</u><br><br>Entre all the details<br></th>    
+		</tr>   
+		<tr>    
+			<td>Enter Username:</td>    
+			<td><input type="text" name="uname" required></td>  
+		</tr>   
+		<tr>    
+			<td>Enter Password:</td> 
+			<td><input type="password" name="pass" required></td>   
+		</tr>  
+		<tr>    
+			<td>confirm password:</td>    
+			<td><input type="password" name="cpass" required></td>   
+		</tr>   
+		<tr>    
+			<td>Enter Date of Birth:</td>    
+			<td><input type="date" name="dob" required></td>   
+		</tr>   
+		<tr>    
+			<td>Enter mail:</td>    
+			<td><input type="email" name="mail" required></td>   
+		</tr>
+		<tr>    
+			<td>Enter Mobile number:</td>    
+			<td><input type="number" name="mobile" required></td>   
+		</tr>   		
+		<tr> 
+			<td class="no" align="center" colspan="2"><input type="submit" name="register" value="Submit Data"></td>       
+		</tr> 
+		<tr> 
+			<td  colspan="2"><center><a href="mini login.html">Already Have an Account</a></center></td>       
+		</tr>
+	</form>
+	</table> 
+ 
+</body> 
+ 
+</html> 
+ 
+ 
