@@ -1,0 +1,156 @@
+* {
+    /* margin: 5px; */
+    padding: 5px;
+}
+body{
+    background: url(main.jpg) no-repeat;
+    max-width: auto;
+}
+
+h1 {
+    padding: 10px 50px 10px 50px;
+    margin: auto;
+    display: inline-block;
+    /* border: 5px solid red; */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+button {
+    /* border: 5px solid blue; */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    color: whitesmoke;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    margin: auto;
+    width: 200px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+/* .button-box{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    color: #fff;
+    border-radius: 30px;
+} */
+
+hr {
+    padding: 1px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+    .button-box {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .button-box {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .button-box {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.input-group{
+    margin: auto;
+    /* border: 5px solid red; */
+    width: 50%;
+    display: block;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    border-radius: 20px;
+    /* color: #fff; */
+}
+
+input{
+    display: inline-block;
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    /* margin: auto; */
+    /* color: #fff; */
+    color: white;
+    /* background: transparent; */
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    border-radius: 20px;
+    /* cursor: pointer; */
+
+}
+
+table{
+    width: 100%;
+}
+td{
+    width: 16%;
+}
+
+select{
+    /* border: 5px solid blue; */
+    width: 100%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    color: #fff;
+    /* cursor: pointer; */
+}
+select option { 
+    color: black;
+}
+
+
+textarea{
+    width: 100%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+.input-filed {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    /* color: #fff; */
+}
+::placeholder{
+    color: #fff;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    /* background-image: url(main.jpg); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: aqua;
+    text-align: right;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: darkgoldenrod;
+}
+.menu-bar ul li{
+    width: 140px;
+    margin: 5px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(1, 6, 10);
+    font-size: 18px;
+}
+.active, .menu-bar ul li :hover{
+    /* border-top: 2px; */
+    border-radius: 5px;
+    /* background-color: black; */
+}
+.menu-bar .fa{
+    margin-right: 10px;
+    display: inline;
+}
+.booking{
+    position: absolute;
+    right: 1%;
+    margin: 6%;
+    width: 35%;
+    height: 400px;
+    border: 3px solid;
+    border-radius: 25px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    /* font-size: 32px; */
+}
+/* table{
+    border: 1px solid;
+    width: 100%;
+}
+td{
+    width: 2%;
+    margin: auto;
+    height: 2%;
+} */
+
+.one{
+    width: 100%;
+    margin: 4%;
+    height: auto;  
+    
+}
+input{
+    margin:2%;
+    font-size: 17px;
+
+}
+select{ 
+    width: 39.5%;
+    margin: 2%;
+    /* height: auto; */
+    font-size: 17px;
+    box-sizing: unset;
+}
+label{
+    width: 100%;
+    margin: 2%;
+
+}
+button{
+    margin: 2%;
+    font-size: 17px;
+}
+.btn{
+    text-align: center; 
+}
